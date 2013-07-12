@@ -3434,24 +3434,24 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <instance part="JP3" gate="G$1" x="30.48" y="127"/>
 <instance part="U1" gate="G$1" x="106.68" y="101.6"/>
 <instance part="C2" gate="G$1" x="71.12" y="119.38"/>
-<instance part="C4" gate="G$1" x="132.08" y="86.36"/>
+<instance part="C4" gate="G$1" x="132.08" y="83.82"/>
 <instance part="R3" gate="G$1" x="60.96" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="61.468" y="124.9426" size="1.778" layer="95"/>
 <attribute name="VALUE" x="61.468" y="116.332" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="60.96" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="61.214" y="89.6366" size="1.778" layer="95"/>
-<attribute name="VALUE" x="68.834" y="83.566" size="1.778" layer="96" rot="R180"/>
+<instance part="R4" gate="G$1" x="60.96" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="61.214" y="87.0966" size="1.778" layer="95"/>
+<attribute name="VALUE" x="68.834" y="81.026" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R5" gate="G$1" x="144.78" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="146.05" y="104.1146" size="1.778" layer="95"/>
 <attribute name="VALUE" x="145.288" y="97.536" size="1.778" layer="96"/>
 </instance>
-<instance part="R6" gate="G$1" x="144.78" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="145.542" y="89.3826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="145.542" y="81.788" size="1.778" layer="96"/>
+<instance part="R6" gate="G$1" x="144.78" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="145.542" y="86.8426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="145.542" y="79.248" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="180.34" y="73.66"/>
+<instance part="GND1" gate="1" x="180.34" y="71.12"/>
 <instance part="GND2" gate="1" x="208.28" y="99.06"/>
 <instance part="R7" gate="G$1" x="165.1" y="101.6" smashed="yes" rot="R90">
 <attribute name="NAME" x="166.37" y="104.1146" size="1.778" layer="95"/>
@@ -3492,7 +3492,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </net>
 <net name="N$1" class="0">
 <segment>
-<wire x1="132.08" y1="91.44" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="88.9" x2="132.08" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="VAUX"/>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -3502,7 +3502,7 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <segment>
 <wire x1="60.96" y1="116.84" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="111.76" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="101.6" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="101.6" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="101.6" x2="60.96" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="116.84" x2="71.12" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="111.76" x2="60.96" y2="111.76" width="0.1524" layer="91"/>
@@ -3516,18 +3516,17 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </net>
 <net name="FB" class="0">
 <segment>
-<wire x1="129.54" y1="93.98" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="93.98" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="101.6" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="88.9" x2="149.86" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="88.9" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="91.44" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="91.44" x2="139.7" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="91.44" x2="139.7" y2="93.98" width="0.1524" layer="91"/>
-<junction x="144.78" y="91.44"/>
-<pinref part="U1" gate="G$1" pin="FB"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="91.44" x2="152.4" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="91.44" x2="152.4" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="SJ1" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="88.9" x2="157.48" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="88.9" x2="144.78" y2="91.44" width="0.1524" layer="91"/>
+<junction x="144.78" y="91.44"/>
+<wire x1="144.78" y1="91.44" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="FB"/>
+<wire x1="124.46" y1="101.6" x2="129.54" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="101.6" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -3568,39 +3567,50 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 </net>
 <net name="GND" class="0">
 <segment>
-<wire x1="132.08" y1="83.82" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="114.3" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="127" x2="40.64" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="78.74" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="78.74" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="109.22" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="JP1" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<wire x1="88.9" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<wire x1="132.08" y1="81.28" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="114.3" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="127" x2="40.64" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="76.2" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="76.2" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="76.2" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="96.52" x2="86.36" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="96.52" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="93.98" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="91.44" x2="86.36" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="78.74" x2="127" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="91.44" x2="86.36" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="99.06" x2="127" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="127" y1="99.06" x2="127" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="127" y1="96.52" x2="127" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="127" y1="93.98" x2="127" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="127" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="96.52" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="127" y1="93.98" x2="127" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="127" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="76.2" x2="144.78" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="76.2" x2="132.08" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="96.52" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="127" x2="38.1" y2="127" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="78.74" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="76.2" x2="180.34" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="132.08" x2="40.64" y2="127" width="0.1524" layer="91"/>
-<junction x="50.8" y="78.74"/>
+<junction x="50.8" y="76.2"/>
 <junction x="86.36" y="93.98"/>
 <junction x="86.36" y="91.44"/>
-<junction x="86.36" y="78.74"/>
+<junction x="86.36" y="76.2"/>
 <junction x="127" y="96.52"/>
 <junction x="127" y="93.98"/>
-<junction x="127" y="78.74"/>
-<junction x="132.08" y="78.74"/>
-<junction x="180.34" y="78.74"/>
+<junction x="127" y="76.2"/>
+<junction x="132.08" y="76.2"/>
+<junction x="180.34" y="76.2"/>
 <junction x="40.64" y="127"/>
 <pinref part="U1" gate="G$1" pin="PAD@1"/>
 <pinref part="U1" gate="G$1" pin="PAD@2"/>
@@ -3614,12 +3624,14 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="JP7" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="213.36" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="109.22" x2="208.28" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="GND2" gate="1" pin="GND"/>
-<pinref part="JP1" gate="G$1" pin="1"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="60.96" y1="78.74" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
+<junction x="60.96" y="76.2"/>
+<wire x1="78.74" y1="99.06" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
+<junction x="78.74" y="76.2"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="78.74" x2="144.78" y2="76.2" width="0.1524" layer="91"/>
+<junction x="144.78" y="76.2"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -3661,20 +3673,6 @@ Basic Inductor/Choke - 0603 and 1206. Footprints are not proven and vary greatly
 <wire x1="210.82" y1="106.68" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <pinref part="P+2" gate="1" pin="VCC"/>
-</segment>
-</net>
-<net name="GND1" class="0">
-<segment>
-<wire x1="88.9" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="76.2" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="81.28" x2="144.78" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="76.2" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="99.06" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
-<junction x="78.74" y="76.2"/>
-<pinref part="U1" gate="G$1" pin="GND"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
